@@ -1,0 +1,22 @@
+# secrets
+.env
+
+# generated video output and intermediates
+out/
+work/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# web
+web/node_modules/
+web/.next/
+web/next-env.d.ts
+web/*.tsbuildinfo
+
+# music tracks may be copyrighted
+assets/music.mp3
+
+.DS_Store
